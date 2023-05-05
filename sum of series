@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int range, sum = 0;
+
+    printf("Enter the range up to which you want to sum natural numbers: ");
+    scanf("%d", &range);
+
+    for (int i = 1; i <= range; i++) {
+        sum += i;
+    }
+
+    printf("The sum of natural numbers up to %d is: %d", range, sum);
+
+    return 0;
+}
